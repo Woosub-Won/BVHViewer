@@ -125,7 +125,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BVHReader.cpp" />
+    <ClCompile Include="Joint.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Motion.cpp" />
+    <ClCompile Include="Skeleton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BVHReader.h" />
+    <ClInclude Include="Joint.h" />
+    <ClInclude Include="Motion.h" />
+    <ClInclude Include="Skeleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
